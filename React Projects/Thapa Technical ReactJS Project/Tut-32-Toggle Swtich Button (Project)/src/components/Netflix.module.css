@@ -1,0 +1,20 @@
+/* This is applied to only local file (i.e. CardList.jsx) */
+.header{
+    grid-column: span 3;
+}
+
+.high_rating{
+    background-color: #7dcea0;
+}
+
+.low-rating{
+    background-color: #f7dc6f;
+}
+
+.normalClass{
+    padding: 0.3rem 1.8rem;
+    color: #000;
+    margin-left: 0.2rem;
+    border-radius: 100rem;
+}
+

@@ -1,0 +1,91 @@
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.2rem;
+    list-style: none;
+  }
+  
+  .main-container {
+    width: 270px;
+    min-height: 540px;
+    max-height: 880px;
+    position: relative;
+    margin: 0 20px;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #1c1c1c;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .main-container:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+  }
+  
+  .poster-container {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .poster {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+  
+  .main-container:hover .poster {
+    transform: scale(1.05);
+  }
+  
+  .ticket-container {
+    background: #272727;
+    color: #f4f4f4;
+    padding: 1.6rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
+    border-top: 2px solid #444;
+  }
+  
+  .ticket__content {
+    text-align: center;
+  }
+  
+  .ticket__movie-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    color: #ffffff;
+  }
+  
+  .ticket__movie-slogan {
+    color: #bbbbbb;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ticket__buy-btn {
+    cursor: pointer;
+    width: 100%;
+    background: #e50914;
+    color: white;
+    padding: 12px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .ticket__buy-btn:hover {
+    background: #b00610;
+    transform: translateY(-2px);
+  }
+  

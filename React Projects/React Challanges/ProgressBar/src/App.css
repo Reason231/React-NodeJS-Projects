@@ -1,0 +1,50 @@
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 300px;
+    height: 16px;
+    background: #ccc;
+    border-radius: 8px;
+    outline: none;
+    overflow: hidden;
+  }
+  
+  /* Track fill (before thumb) for Chrome/Safari */
+  input[type=range]::-webkit-slider-runnable-track {
+    height: 16px;
+    background: #ccc;
+    border-radius: 8px;
+  }
+  
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0;
+    height: 16px;
+    background: green;
+    box-shadow: -300px 0 0 300px green;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Track fill (before thumb) for Firefox */
+  input[type=range]::-moz-range-track {
+    height: 16px;
+    background: #ccc;
+    border-radius: 8px;
+  }
+  
+  input[type=range]::-moz-range-progress {
+    background-color: green;
+    height: 16px;
+    border-radius: 8px;
+  }
+  
+  input[type=range]::-moz-range-thumb {
+    width: 0;
+    height: 16px;
+    border: none;
+    background: green;
+    cursor: pointer;
+  }
+  
