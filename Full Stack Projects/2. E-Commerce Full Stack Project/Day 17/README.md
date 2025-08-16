@@ -1,8 +1,14 @@
 ## Day 17 => Payment Functionality
 
 ## Paypal Developer Login Info
+1. Seller Info
 - Email => rijankhadgi100@gmail.com
 - Password => Warriorop24 
+
+2. Buyer Info
+- Email => itzreason643@gmail.com
+- Password => Warriorop24 
+
 
 ## Api Credentials
 - Client ID => AUSYXF22YK10P9V0TM41I2Oho0I0gNDYyqTM7BfAdWFAE_-eBm23KEZ2_iw2or-DDO98XloADKUhn39T
@@ -35,8 +41,17 @@ Step 4 => Getting the api Credentials => https://developer.paypal.com/dashboard/
 - Go to the "address.jsx" file to pass the props to <AddressCard>
 - Tut video => 10:40:55 - 10:58:38
 
-5. Creating Paypal Page
+## To Login For The Payment which is re-directed after the button click
+- Login from the buyer account in the developer paypal account
+- Go to this link => https://developer.paypal.com/dashboard/applications/sandbox
+- Click on "default application" and search for email and password
+- Email => sb-sovme45250849@personal.example.com
+- Password => ]zW#)/5Z
+- Pase that email and password and log in.
+- ![Alt](./client/public/0.png)
+
+
+5. Creating Paypal Page after the payment is successful and demonstration of payment
 - Go to the "pages" => "shopping-view" => and create "paypal-return.jsx".
 - Go to the "App.jsx" and create the path
-- Tut video => 10:40:55 - 11:00:00
-- 
+- Tut video => 10:58:38 - 11:02:00

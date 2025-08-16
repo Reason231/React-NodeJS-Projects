@@ -57,10 +57,17 @@ npm init -y
   mongodb+srv://devilineye100:FECsyoEJrx35OBim@cluster0.bfnyj1i.mongodb.net/
 
 
-## Adding new files in the react-folder
-- jsconfig.json
-- Modifying the vite.config.js
+## Paypal Developer Login Info
+1. Seller Account Info
+- Email => rijankhadgi100@gmail.com
+- Password => Warriorop24 
 
-## Video reached upto 
-Day 1 => 35 => Setting up the project
-Day 2 => 1:22:23=> Creating pages and Layout & Auth logic
+2. Buyer Account Info
+- Email => itzreason643@gmail.com
+- Password => Warriorop24 
+
+3. Buyer Payment Login Info
+- Email => sb-sovme45250849@personal.example.com
+- Password => ]zW#)/5Z
+
+

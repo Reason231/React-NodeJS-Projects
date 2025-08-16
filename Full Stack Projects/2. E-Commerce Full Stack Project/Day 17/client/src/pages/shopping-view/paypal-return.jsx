@@ -1,6 +1,7 @@
 function PaypalReturnPage(){
     return(
         <>
+        This is paypal return page
         </>
     )
 }
